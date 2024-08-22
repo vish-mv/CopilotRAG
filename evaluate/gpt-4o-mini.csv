@@ -1,0 +1,15 @@
+question,answer_similarity,answer_relevancy,faithfulness,context_precision,context_recall
+How to deploy a webapp?,0.6600389447954599,0.8589594621134264,0.9230769230769231,0.9999999999,0.4
+"How to resolve ""Module not found error"" during the deployment of a Python project?",0.7893877093808005,0.8487473805887134,0.0,0.0,0.0
+How to add authentication to my service?,0.7277818518351231,0.7801492655198762,0.9375,0.9999999999,0.8571428571428571
+How to add a custom domain to my web app?,0.7795352697757378,0.831623138950951,1.0,0.9999999999,0.5652173913043478
+How can I test my service?,0.6342937603867932,0.839626643484817,0.9,0.9999999999,1.0
+How can I add environment variables to python webapp?,0.8078333414171955,0.8099475746390074,1.0,0.9999999999,0.7
+How to connect the React frontend to the backend?,0.740894521784386,0.9000121557669001,1.0,0.9999999999,0.375
+How can I deploy my backend and then connect it to the frontend deployed in github pages?,0.9087685076518704,0.8926697543374589,0.6666666666666666,0.9999999999,0.5714285714285714
+How can I implement testing for a full-stack application including automated testing for both frontend and backend components?,0.6591982849821999,0.9104824459121936,0.7857142857142857,0.9999999999,0.5238095238095238
+"I'm getting ""procfile not found"" error for my python service. How do I resolve this?",0.7381107101081307,0.8655875178326656,0.75,0.9999999999,0.8333333333333334
+I'm getting .choreo/endpoints.yaml not found error. How do I resolve this?,0.870951381349518,0.8849342726254559,1.0,0.9999999999,0.9375
+Tell me how I can configure a readiness probe?,0.6598534486464015,0.9177214035578037,0.9230769230769231,0.9999999999,0.9655172413793104
+How to configure Azure as an external IdP?,0.7155789258282518,0.903765528381324,1.0,0.9999999999,0.6
+How do I connect the service when I don't have authentication for my app?,0.7789755280162877,0.7325299998362955,1.0,0.0,0.0
