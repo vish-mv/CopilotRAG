@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39d4dd9d-5d18-43f5-9f8d-0f35d5b6b99c" name="Changes" comment="Update File structure">
-      <change afterPath="$PROJECT_DIR$/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retriever.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chunker.py" beforeDir="false" afterPath="$PROJECT_DIR$/chunker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="39d4dd9d-5d18-43f5-9f8d-0f35d5b6b99c" name="Changes" comment="Add evaluation data">
+      <change beforePath="$PROJECT_DIR$/dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +70,7 @@
       <recent name="C:\Users\Vish\Documents\MyApps\CopilotRAG" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.evaluate">
+  <component name="RunManager" selected="Python.main">
     <configuration name="chunker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CopilotRAG" />
       <option name="ENV_FILES" value="" />
@@ -194,8 +188,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.evaluate" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.evaluate" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.retriever" />
         <item itemvalue="Python.chunker" />
@@ -221,7 +215,7 @@
       <workItem from="1723800655900" duration="2847000" />
       <workItem from="1724248277662" duration="2413000" />
       <workItem from="1724295432325" duration="9732000" />
-      <workItem from="1724306154367" duration="4443000" />
+      <workItem from="1724306154367" duration="13449000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -239,7 +233,55 @@
       <option name="project" value="LOCAL" />
       <updated>1723805220829</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add chunker.py">
+      <option name="closed" value="true" />
+      <created>1724325119530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724325119530</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add evaluate.py">
+      <option name="closed" value="true" />
+      <created>1724325145799</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724325145799</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add retriever.py">
+      <option name="closed" value="true" />
+      <created>1724325170252</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724325170252</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update main.py for handle all the scenarios in the project">
+      <option name="closed" value="true" />
+      <created>1724325256691</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724325256691</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add  dataset for evaluation">
+      <option name="closed" value="true" />
+      <created>1724325278871</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724325278871</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add evaluation data">
+      <option name="closed" value="true" />
+      <created>1724325533042</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724325533042</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,13 +293,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Update File structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update File structure" />
+    <MESSAGE value="Add chunker.py" />
+    <MESSAGE value="Add evaluate.py" />
+    <MESSAGE value="Add retriever.py" />
+    <MESSAGE value="Update main.py for handle all the scenarios in the project" />
+    <MESSAGE value="Add  dataset for evaluation" />
+    <MESSAGE value="Add evaluation data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add evaluation data" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CopilotRAG$test.coverage" NAME="test Coverage Results" MODIFIED="1724305438129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CopilotRAG$retriever.coverage" NAME="retriever Coverage Results" MODIFIED="1724301596076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CopilotRAG$main.coverage" NAME="main Coverage Results" MODIFIED="1724308171750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CopilotRAG$main.coverage" NAME="main Coverage Results" MODIFIED="1724324384692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CopilotRAG$chunker.coverage" NAME="chunker Coverage Results" MODIFIED="1724297905602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CopilotRAG$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1724309709218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CopilotRAG$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1724318266128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
